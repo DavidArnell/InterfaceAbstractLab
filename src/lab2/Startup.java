@@ -15,6 +15,9 @@ public class Startup {
         //Create and use at least one instance of each class
         
         //Methods to set the values in the classes
+            /*
+            Setting the values from the startup class was the wrong way to go
+            
         IntroToProgrammingCourse intro = new 
             IntroToProgrammingCourse("Intro to Programming", "1" ,4);
         
@@ -25,7 +28,13 @@ public class Startup {
         AdvancedJavaCourse advancedJave = new
             AdvancedJavaCourse("Advanced Java", "3",
             4, "Intro to Java");        
-        
+        */
+            
+        //Creating instances of each class through my interface
+            //Should not have pluralised "ProgrammingCourses"
+            ProgrammingCourses introToProgramming = new IntroToProgrammingCourse();
+            ProgrammingCourses introJavaCourse = new IntroJavaCourse();
+            ProgrammingCourses advancedJavaCourse = new AdvancedJavaCourse();
     }
     
 }

@@ -11,8 +11,16 @@ package lab2;
  */
 public interface ProgrammingCourses {
     
-    public abstract String courseName;
-    public String courseNumber;
-    public double credits;
+    //Each class will have these methods
+    //the prerequisites method was excluded as the intro class has none
+    public abstract String getCourseNumber();
+    public abstract double getCredits();
+    public abstract String getCourseName();
+    public abstract void setCourseNumber(String courseNumber);
+    public abstract void setCredits(double credits);
+    public abstract void setCourseName(String courseName);
+
+
     
+       
 }
