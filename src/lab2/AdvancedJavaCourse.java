@@ -67,11 +67,10 @@ public class AdvancedJavaCourse implements ProgrammingCourses{
         return prerequisites;
     }
 
-    private void setPrerequisites(String prerequisites) {
+    public void setPrerequisites(String prerequisites) {
         this.prerequisites = prerequisites;
     }
-
-    
+  
 
     
 }

@@ -35,6 +35,19 @@ public class Startup {
             ProgrammingCourses introToProgramming = new IntroToProgrammingCourse();
             ProgrammingCourses introJavaCourse = new IntroJavaCourse();
             ProgrammingCourses advancedJavaCourse = new AdvancedJavaCourse();
+            
+            //Setting values to the classes
+            introToProgramming.setCourseName("Intro to Programming");
+            introToProgramming.setCourseNumber("1");
+            introToProgramming.setCredits(4);
+            
+            introJavaCourse.setCourseName("Intro to Java");
+            introJavaCourse.setCourseNumber("2");
+            introJavaCourse.setCredits(4);
+            
+            advancedJavaCourse.setCourseName("Advanced Java");
+            advancedJavaCourse.setCourseNumber("2");
+            advancedJavaCourse.setCredits(4);
     }
     
 }

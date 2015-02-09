@@ -75,6 +75,5 @@ public class IntroJavaCourse implements ProgrammingCourses {
     private void setPrerequisites(String prerequisites) {
         this.prerequisites = prerequisites;
     }
-
     
 }
