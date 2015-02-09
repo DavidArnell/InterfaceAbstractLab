@@ -14,9 +14,12 @@ public class AdvancedJavaCourse extends JavaClasses {
 //    private double credits;
     private String prerequisites;
 
-    public AdvancedJavaCourse(String courseName, String courseNumber) {
+    public AdvancedJavaCourse(String courseName, String courseNumber,
+            double credits, String prerequisites) {
         this.setCourseName(courseName);
         this.setCourseNumber(courseNumber);
+        this.setCredits(credits);
+        this.setPrerequisites(prerequisites);
     }
 
     public String getCapitalizedCourseName() {
@@ -36,7 +39,9 @@ public class AdvancedJavaCourse extends JavaClasses {
         }
         this.prerequisites = prerequisites;
     }
-
+/*
+    //Will not need these methods
+    //Methods inherited from JavaClasses class
     public void setCredits(double credits) {
         if(credits < 0.5 || credits > 4.0) {
             JOptionPane.showMessageDialog(null,
@@ -61,5 +66,5 @@ public class AdvancedJavaCourse extends JavaClasses {
     public void setCourseNumber(String courseNumber) {
         this.courseNumber = courseNumber;
     }
-    
+    */
 }
