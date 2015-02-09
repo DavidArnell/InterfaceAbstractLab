@@ -11,4 +11,8 @@ package lab2;
  */
 public interface ProgrammingCourses {
     
+    public abstract String courseName;
+    public String courseNumber;
+    public double credits;
+    
 }
