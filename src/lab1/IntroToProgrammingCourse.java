@@ -33,6 +33,7 @@ public class IntroToProgrammingCourse extends JavaClasses  {
 
     //These methods will need to be overwritten
     //The values in these variables are specific to this class
+    /*
     @Override 
     public String getCourseNumber() {
         return courseNumber;
@@ -77,6 +78,7 @@ public class IntroToProgrammingCourse extends JavaClasses  {
         }
         this.courseName = courseName;
     }
+    */
 
     
 }

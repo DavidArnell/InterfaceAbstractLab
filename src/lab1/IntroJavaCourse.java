@@ -32,11 +32,12 @@ public class IntroJavaCourse extends JavaClasses {
 
     //I will need to override to ensure the values for these variables are
     //unique to this class
+    /*
     @Override
     public String getCourseNumber() {
         return courseNumber;
     }
-/*
+
     @Override
     public void setCourseNumber(String courseNumber) {
         this.courseNumber = courseNumber;
