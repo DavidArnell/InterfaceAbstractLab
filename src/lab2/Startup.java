@@ -46,7 +46,7 @@ public class Startup {
             introJavaCourse.setCredits(4);
             
             advancedJavaCourse.setCourseName("Advanced Java");
-            advancedJavaCourse.setCourseNumber("2");
+            advancedJavaCourse.setCourseNumber("3");
             advancedJavaCourse.setCredits(4);
     }
     
