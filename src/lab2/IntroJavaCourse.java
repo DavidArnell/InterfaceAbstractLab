@@ -67,7 +67,7 @@ public class IntroJavaCourse implements ProgrammingCourses {
         this.courseName = courseName;
     }
     
-
+/*
     private String getPrerequisites() {
         return prerequisites;
     }
@@ -75,5 +75,6 @@ public class IntroJavaCourse implements ProgrammingCourses {
     private void setPrerequisites(String prerequisites) {
         this.prerequisites = prerequisites;
     }
+    */
     
 }
